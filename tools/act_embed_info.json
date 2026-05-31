@@ -1,0 +1,1315 @@
+{
+ "count": 131,
+ "acts": [
+  {
+   "act": "2Dsliders",
+   "win_w": 126,
+   "win_h": 63,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "INmulti",
+   "win_w": 175,
+   "win_h": 72,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 22,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "LFFO",
+   "win_w": 159,
+   "win_h": 169,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 32,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "SDIFter",
+   "win_w": 286,
+   "win_h": 241,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 51,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "TFF",
+   "win_w": 319,
+   "win_h": 184,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 46,
+   "openinpresentation": 1,
+   "n_presentation_objs": 39
+  },
+  {
+   "act": "TSSSF",
+   "win_w": 835,
+   "win_h": 194,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 113,
+   "openinpresentation": 1,
+   "n_presentation_objs": 96
+  },
+  {
+   "act": "amxd@",
+   "win_w": 157,
+   "win_h": 117,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 30,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "analyze@",
+   "win_w": 200,
+   "win_h": 236,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 59,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "animator@",
+   "win_w": 437,
+   "win_h": 137,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 59,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "arpanner",
+   "win_w": 160,
+   "win_h": 144,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 28,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "autocount@",
+   "win_w": 210,
+   "win_h": 92,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 31,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "bandfollower",
+   "win_w": 270,
+   "win_h": 167,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 36,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "banger",
+   "win_w": 484,
+   "win_h": 71,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 41,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "beast",
+   "win_w": 430,
+   "win_h": 307,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 89,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "beauty",
+   "win_w": 587,
+   "win_h": 133,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 43,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "bildsynthi",
+   "win_w": 644,
+   "win_h": 254,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 40,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "brown",
+   "win_w": 420,
+   "win_h": 83,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 23,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "buffer_host",
+   "win_w": 119,
+   "win_h": 186,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "buffub",
+   "win_w": 209,
+   "win_h": 255,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 46,
+   "openinpresentation": 0,
+   "n_presentation_objs": 1
+  },
+  {
+   "act": "chaos",
+   "win_w": 386,
+   "win_h": 180,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 61,
+   "openinpresentation": 0,
+   "n_presentation_objs": 22
+  },
+  {
+   "act": "chebyshev@",
+   "win_w": 160,
+   "win_h": 240,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 19,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "cll_cltl@",
+   "win_w": 747,
+   "win_h": 88,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 40,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "clocker@",
+   "win_w": 221,
+   "win_h": 41,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 23,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "cloud",
+   "win_w": 387,
+   "win_h": 644,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 57,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "control@",
+   "win_w": 191,
+   "win_h": 53,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 69,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "delayloops",
+   "win_w": 159,
+   "win_h": 238,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 28,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "demosound@",
+   "win_w": 186,
+   "win_h": 153,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 14,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "distort@",
+   "win_w": 161,
+   "win_h": 215,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 26,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "envM",
+   "win_w": 330,
+   "win_h": 262,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 26,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "envMM",
+   "win_w": 500,
+   "win_h": 460,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 62,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "eq@",
+   "win_w": 300,
+   "win_h": 157,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 23,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "equalAmp",
+   "win_w": 162,
+   "win_h": 311,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 24,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "euclid",
+   "win_w": 540,
+   "win_h": 310,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 39,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "feedbacker",
+   "win_w": 159,
+   "win_h": 264,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "fffb@",
+   "win_w": 484,
+   "win_h": 209,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "flop",
+   "win_w": 185,
+   "win_h": 279,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 56,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "fmrm",
+   "win_w": 220,
+   "win_h": 175,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "forbiddenP",
+   "win_w": 266,
+   "win_h": 216,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 39,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "frack",
+   "win_w": 188,
+   "win_h": 235,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 31,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "freeverb@",
+   "win_w": 159,
+   "win_h": 133,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 25,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "frequenzteiler",
+   "win_w": 332,
+   "win_h": 153,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 22,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "gg.rainer",
+   "win_w": 318,
+   "win_h": 272,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 61,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "gizmo@",
+   "win_w": 159,
+   "win_h": 114,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 20,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "gverb@",
+   "win_w": 159,
+   "win_h": 115,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 17,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "hardplay",
+   "win_w": 275,
+   "win_h": 185,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 50,
+   "openinpresentation": 0,
+   "n_presentation_objs": 1
+  },
+  {
+   "act": "jit.2oscbank",
+   "win_w": 200,
+   "win_h": 369,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 59,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.3m@",
+   "win_w": 128,
+   "win_h": 112,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 20,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.blobs",
+   "win_w": 311,
+   "win_h": 269,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.brcosa@",
+   "win_w": 122,
+   "win_h": 130,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 24,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.buf",
+   "win_w": 192,
+   "win_h": 166,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 23,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "jit.buffer@",
+   "win_w": 157,
+   "win_h": 162,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 35,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.copyprot.act",
+   "win_w": 133,
+   "win_h": 149,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 20,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.display@",
+   "win_w": 146,
+   "win_h": 192,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 48,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.grab@",
+   "win_w": 192,
+   "win_h": 161,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 31,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.lcd@",
+   "win_w": 321,
+   "win_h": 342,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.op@",
+   "win_w": 142,
+   "win_h": 127,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 28,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.player",
+   "win_w": 246,
+   "win_h": 214,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 48,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.slide@",
+   "win_w": 240,
+   "win_h": 266,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 40,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "jit.videoplanes",
+   "win_w": 518,
+   "win_h": 188,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 112,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.videoplanesP",
+   "win_w": 541,
+   "win_h": 145,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 63,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "jit.world@",
+   "win_w": 539,
+   "win_h": 174,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 54,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "kaos@",
+   "win_w": 147,
+   "win_h": 202,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 26,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "karma@",
+   "win_w": 291,
+   "win_h": 252,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 41,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "kk.rainer",
+   "win_w": 274,
+   "win_h": 244,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 56,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "kompressor",
+   "win_w": 201,
+   "win_h": 178,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "limi",
+   "win_w": 200,
+   "win_h": 167,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 24,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "link@",
+   "win_w": 104,
+   "win_h": 149,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "matriarch@",
+   "win_w": 256,
+   "win_h": 166,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 75,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "matrix@",
+   "win_w": 225,
+   "win_h": 115,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 40,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "mc.random@",
+   "win_w": 200,
+   "win_h": 180,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 6
+  },
+  {
+   "act": "mcpanner",
+   "win_w": 153,
+   "win_h": 165,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 19,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "midikeys",
+   "win_w": 1020,
+   "win_h": 97,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 42,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "mixer@",
+   "win_w": 173,
+   "win_h": 212,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 33,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "modul.ator",
+   "win_w": 368,
+   "win_h": 59,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "morph",
+   "win_w": 166,
+   "win_h": 210,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 28,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "mubugrain@",
+   "win_w": 395,
+   "win_h": 359,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 76,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "multitap",
+   "win_w": 301,
+   "win_h": 178,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "munger@",
+   "win_w": 225,
+   "win_h": 233,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 46,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "noize@",
+   "win_w": 323,
+   "win_h": 101,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "normalize",
+   "win_w": 160,
+   "win_h": 130,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 25,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "notepad@",
+   "win_w": 230,
+   "win_h": 100,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 19,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "op@",
+   "win_w": 300,
+   "win_h": 107,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "oscbank@",
+   "win_w": 196,
+   "win_h": 236,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 33,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "overdrive@",
+   "win_w": 159,
+   "win_h": 96,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 18,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "pHARM4@",
+   "win_w": 362,
+   "win_h": 128,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "paf@",
+   "win_w": 443,
+   "win_h": 171,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "peakfinder",
+   "win_w": 161,
+   "win_h": 168,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 23,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "peakfollow@",
+   "win_w": 135,
+   "win_h": 144,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "period",
+   "win_w": 433,
+   "win_h": 80,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 35,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "pr.6groov",
+   "win_w": 752,
+   "win_h": 221,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 75,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "pr.spectfreeze",
+   "win_w": 272,
+   "win_h": 157,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 27,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "pr.spectplay",
+   "win_w": 271,
+   "win_h": 223,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 28,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "prdelay@",
+   "win_w": 160,
+   "win_h": 129,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 21,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "pulse@",
+   "win_w": 543,
+   "win_h": 70,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "pulsegen",
+   "win_w": 222,
+   "win_h": 96,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 21,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "quant",
+   "win_w": 280,
+   "win_h": 200,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 62,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "random0_1-",
+   "win_w": 292,
+   "win_h": 74,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "random@",
+   "win_w": 379,
+   "win_h": 58,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 55,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "rec@",
+   "win_w": 209,
+   "win_h": 110,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 34,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "rec_events",
+   "win_w": 153,
+   "win_h": 90,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 33,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "rez@",
+   "win_w": 253,
+   "win_h": 209,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 25,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "rm@",
+   "win_w": 159,
+   "win_h": 245,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 31,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "scope@",
+   "win_w": 350,
+   "win_h": 207,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 33,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "signaltocontrol",
+   "win_w": 240,
+   "win_h": 110,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 17,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "simproov",
+   "win_w": 190,
+   "win_h": 172,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 63,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "sinsE",
+   "win_w": 857,
+   "win_h": 320,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 93,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "sinus",
+   "win_w": 133,
+   "win_h": 200,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "snap@",
+   "win_w": 225,
+   "win_h": 73,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 18,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "sonogram@",
+   "win_w": 408,
+   "win_h": 216,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 39,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "spat.abba@",
+   "win_w": 131,
+   "win_h": 50,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 17,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambicontrol@",
+   "win_w": 226,
+   "win_h": 135,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 50,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambidecode@",
+   "win_w": 200,
+   "win_h": 60,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 21,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambiencode@",
+   "win_w": 270,
+   "win_h": 166,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 37,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambimonitor@",
+   "win_w": 227,
+   "win_h": 392,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 41,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambipanning@",
+   "win_w": 165,
+   "win_h": 65,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 24,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.ambitransform@",
+   "win_w": 148,
+   "win_h": 80,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 21,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spat.uhj2b@",
+   "win_w": 94,
+   "win_h": 85,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 16,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "spectral_sins",
+   "win_w": 504,
+   "win_h": 172,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 29,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "svf2@",
+   "win_w": 159,
+   "win_h": 193,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 25,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "tetris@",
+   "win_w": 351,
+   "win_h": 536,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 67,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "threekomp",
+   "win_w": 305,
+   "win_h": 284,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 51,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "timeline@",
+   "win_w": 940,
+   "win_h": 239,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 22,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "vbap@",
+   "win_w": 300,
+   "win_h": 345,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 61,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "vst@",
+   "win_w": 159,
+   "win_h": 117,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 31,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "w_filter",
+   "win_w": 312,
+   "win_h": 203,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 24,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  },
+  {
+   "act": "walk",
+   "win_w": 241,
+   "win_h": 59,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 21,
+   "openinpresentation": 0,
+   "n_presentation_objs": 7
+  },
+  {
+   "act": "wavelets",
+   "win_w": 293,
+   "win_h": 231,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 39,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "waveshapers@",
+   "win_w": 201,
+   "win_h": 183,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 45,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "wrapfilter",
+   "win_w": 159,
+   "win_h": 232,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 46,
+   "openinpresentation": 0,
+   "n_presentation_objs": 0
+  },
+  {
+   "act": "x_filter",
+   "win_w": 366,
+   "win_h": 209,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 40,
+   "openinpresentation": 0,
+   "n_presentation_objs": 5
+  },
+  {
+   "act": "xgroove@",
+   "win_w": 251,
+   "win_h": 282,
+   "n_inlets": 0,
+   "n_outlets": 0,
+   "n_boxes": 49,
+   "openinpresentation": 0,
+   "n_presentation_objs": 4
+  }
+ ]
+}
