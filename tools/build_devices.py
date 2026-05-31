@@ -68,6 +68,46 @@ def strip_machine_paths(obj):
     return obj, removed
 
 
+# The placeholder act that the upstream template uses in BOTH the static abstraction
+# and the dynamic act-spawner (create-act-bpatcher) message.
+PLACEHOLDER_ACT = "demosound@.maxpat"
+
+
+def fix_act_creation(obj, act):
+    """
+    Bugfix for the upstream generator's half-swap.
+
+    The ppooll-for-Live template names the act in TWO places, kept consistent
+    (both `demosound@.maxpat`):
+      1. a static `newobj` abstraction (varname `<act>1`), and
+      2. the message inside `p create-act-bpatcher` that ppooll_host bangs via
+         `r live.load_act` to DYNAMICALLY spawn the act (`script newdefault`).
+    `generate_per_act_amxd.py` only rewrote (1). So a generated device statically
+    loaded `<act>` while ppooll_host dynamically spawned `demosound@` — two different
+    acts colliding over the shared pattr/pattrstorage state, which manifests as
+    `prepend: stack overflow -- outlets are disabled ...` on insertion and no audio.
+
+    This restores the invariant: every act-name reference uses `<act>.maxpat`.
+    Returns the list of object ids that were corrected.
+    """
+    target = f"{act}.maxpat"
+    fixed = []
+    if act == "demosound@":
+        return fixed  # the demosound@ device legitimately keeps the placeholder
+
+    def recurse(patcher):
+        for b in patcher.get("boxes", []):
+            box = b.get("box", {})
+            if box.get("text", "") == PLACEHOLDER_ACT:
+                box["text"] = target
+                fixed.append(box.get("id", "?"))
+            if "patcher" in box:
+                recurse(box["patcher"])
+
+    recurse(obj["patcher"])
+    return fixed
+
+
 def find_remaining_paths(obj):
     """Return any machine-specific path substrings still present anywhere in the JSON."""
     s = json.dumps(obj, ensure_ascii=False)
@@ -100,6 +140,7 @@ def main():
         status = "OK"
         notes = []
         removed = []
+        act_fixed = []
 
         if not os.path.isfile(src):
             errors.append(f"{act}: source .amxd missing")
@@ -110,9 +151,10 @@ def main():
         orig_type = amxd_lib.device_type(src)
         new_type = info["live_type"].encode() if retag else None
 
-        def mutate(obj, _removed=removed):
+        def mutate(obj, _removed=removed, _fixed=act_fixed, _act=act):
             obj, rm = strip_machine_paths(obj)
             _removed.extend(rm)
+            _fixed.extend(fix_act_creation(obj, _act))
             return obj
 
         try:
@@ -129,6 +171,14 @@ def main():
         if remaining:
             status = "WARN"
             notes.append("residual paths: " + ", ".join(remaining))
+
+        # act-creation consistency: no leftover placeholder act for non-demosound devices
+        residual_placeholder = json.dumps(out_obj, ensure_ascii=False).count('"' + PLACEHOLDER_ACT + '"')
+        if act != "demosound@" and residual_placeholder:
+            status = "WARN"
+            notes.append(f"still {residual_placeholder} '{PLACEHOLDER_ACT}' reference(s) — act mismatch!")
+        if act_fixed:
+            notes.append(f"act-creation fixed ({len(act_fixed)} ref): create-act-bpatcher -> {act}.maxpat")
 
         act_src = os.path.join(RUNTIME_ACTS, f"{act}.maxpat")
         if not os.path.isfile(act_src):
@@ -173,6 +223,9 @@ def main():
           f"(retag={retag})")
     total_removed = sum(len(r[5]) for r in rows)
     print(f"Machine-specific paths removed: {total_removed} entries across all devices")
+    act_fixes = sum(1 for r in rows if any("act-creation fixed" in n for n in r[4]))
+    print(f"Act-creation half-swap fixed in {act_fixes} devices "
+          f"(create-act-bpatcher now spawns the correct act)")
     if errors:
         print("ERRORS:")
         for e in errors:

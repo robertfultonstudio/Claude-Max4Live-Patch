@@ -50,13 +50,22 @@ Analysis established the following facts (all reproducible from the data in this
 2. **Rename + categorize.** The output filename is `Clear Name — <act>.amxd`, written into the
    correct `devices/<category>/` folder. In Max for Live the device's display name comes from the
    filename, so this *is* the rename — done without touching internal patch data.
-3. **Re-pack byte-faithfully.** The original 32-byte header (magic / version / **device type** /
-   meta chunk) is preserved verbatim; only the `ptch` payload + its size are rewritten, exactly as
-   Max writes them (tab-indented UTF-8). Each output is re-read and its JSON is asserted equal to
-   the in-memory patcher (round-trip check).
+3. **Fix the act-creation half-swap (v1.1).** The upstream generator rewrote only the *static*
+   act reference and left the *dynamic* spawner (`create-act-bpatcher`) pointing at the placeholder
+   `demosound@.maxpat` — so devices loaded `<act>` statically but spawned `demosound@` dynamically,
+   colliding over `pattr`/`pattrstorage` (the `stack overflow` blocker). The build now rewrites
+   both references (130/131 corrected; `demosound@` keeps the placeholder; 0 residual mismatches).
+   See [`known_issues.md`](known_issues.md) §0 and [`debugging.md`](debugging.md).
+4. **Set Live device type by category (`--retag`).** Audio processors → Audio Effect (`aaaa`),
+   generators/sample-players → Instrument (`iiii`), MIDI acts → MIDI Effect (`mmmm`). This is the
+   4-byte header code only; it does not rewire the patch.
+5. **Re-pack byte-faithfully.** The original header (magic / version / meta chunk) is preserved;
+   only the device-type 4CC (step 4), the `ptch` payload and its size are rewritten, exactly as
+   Max writes them (tab-indented UTF-8). Each output is re-read and its JSON asserted equal to the
+   in-memory patcher (round-trip check), with zero machine paths and zero act mismatches.
 
-By default the **device type is preserved** (`iiii`, Instrument) — i.e. the build introduces
-**no behavioural change** versus the originals, only portability + naming + organization.
+The shipped build is produced with `build_devices.py --retag`. The act-creation fix is **always**
+applied; without `--retag` the original device type is preserved instead of the per-category type.
 
 ## 4. Phase 4–5 — Layout, parameters, testing (scope & status)
 

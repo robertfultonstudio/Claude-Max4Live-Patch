@@ -20,6 +20,12 @@ the bundled ppooll runtime they need, and full documentation.
 
 ## ⚠️ Read this first — build status & honest scope
 
+> **v1.1 fix:** an end-user hit `prepend: stack overflow` + no audio on insertion. Root cause
+> found and fixed — the upstream generator only half-swapped the act name, so devices spawned the
+> wrong act (`demosound@`) and collided over `pattr`/`pattrstorage`. Now corrected in all 131
+> (statically verified). **Please re-test in Live** — details in
+> [`docs/known_issues.md`](docs/known_issues.md) §0 and [`docs/debugging.md`](docs/debugging.md).
+
 This suite was **assembled and statically validated in a headless Linux environment that has
 neither Max nor Ableton Live**. That has two concrete consequences you must know:
 

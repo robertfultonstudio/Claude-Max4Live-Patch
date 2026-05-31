@@ -12,6 +12,7 @@
       "output": "devices/modulation/XY Control Pad — 2Dsliders.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> 2Dsliders.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -26,6 +27,7 @@
       "output": "devices/routing_mixing/Multi Audio Input — INmulti.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> INmulti.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -40,6 +42,7 @@
       "output": "devices/audio_effects/Dynamic Ring Modulator — LFFO.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> LFFO.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -54,6 +57,7 @@
       "output": "devices/samplers/SDIF Soundfile Player — SDIFter.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> SDIFter.maxpat",
         "needs package(s): CNMAT Externals",
         "live_type=iiii (Instrument)"
       ],
@@ -69,6 +73,7 @@
       "output": "devices/audio_effects/4-Band Resonant Filter — TFF.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> TFF.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -83,6 +88,7 @@
       "output": "devices/instruments/Subtractive Synth — TSSSF.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> TSSSF.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -97,6 +103,7 @@
       "output": "devices/utilities/Max for Live Device Host — amxd@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> amxd@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -111,6 +118,7 @@
       "output": "devices/analysis_metering/Audio Analyzer (Loudness-Brightness) — analyze@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> analyze@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -125,6 +133,7 @@
       "output": "devices/modulation/5-Band LFO — animator@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> animator@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -139,6 +148,7 @@
       "output": "devices/audio_effects/Audio-Rate Auto-Panner — arpanner.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> arpanner.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -153,6 +163,7 @@
       "output": "devices/modulation/Number - Counter Generator — autocount@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> autocount@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -167,6 +178,7 @@
       "output": "devices/analysis_metering/Multiband Envelope Follower — bandfollower.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> bandfollower.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -181,6 +193,7 @@
       "output": "devices/sequencing/Sync Bang Generator — banger.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> banger.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -195,6 +208,7 @@
       "output": "devices/samplers/Buffer Machine — beast.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> beast.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -209,6 +223,7 @@
       "output": "devices/audio_effects/Delay-Feedback Machine — beauty.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> beauty.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -223,6 +238,7 @@
       "output": "devices/audio_effects/Video-Driven Bandpass Filter — bildsynthi.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> bildsynthi.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -237,6 +253,7 @@
       "output": "devices/instruments/Brownian Noise Generator — brown.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> brown.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -251,6 +268,7 @@
       "output": "devices/utilities/Shared Buffer Host — buffer_host.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> buffer_host.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -265,6 +283,7 @@
       "output": "devices/samplers/Buffer Recorder — buffub.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> buffub.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -279,6 +298,7 @@
       "output": "devices/modulation/Lorenz-Roessler Chaos Generator — chaos.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> chaos.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -293,6 +313,7 @@
       "output": "devices/audio_effects/Chebyshev Distortion — chebyshev@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> chebyshev@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -307,6 +328,7 @@
       "output": "devices/instruments/Ondo Noise Synth — cll_cltl@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> cll_cltl@.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -321,6 +343,7 @@
       "output": "devices/sequencing/Event Sequencer — clocker@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> clocker@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -335,6 +358,7 @@
       "output": "devices/instruments/Oscillator Bank (Pitch Cloud) — cloud.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> cloud.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -349,6 +373,7 @@
       "output": "devices/midi/External Control Input (MIDI-OSC) — control@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> control@.maxpat",
         "live_type=mmmm (MIDI Effect)"
       ],
       "paths_removed": [
@@ -363,6 +388,7 @@
       "output": "devices/audio_effects/3-Line Delay — delayloops.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> delayloops.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -391,6 +417,7 @@
       "output": "devices/audio_effects/Bitcrusher - Sample-Rate Reducer — distort@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> distort@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -405,6 +432,7 @@
       "output": "devices/modulation/Multi-Envelope (MC) — envM.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> envM.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -419,6 +447,7 @@
       "output": "devices/modulation/Multi-Envelope Generator — envMM.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> envMM.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -433,6 +462,7 @@
       "output": "devices/audio_effects/Graphic EQ (Crossover) — eq@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> eq@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -447,6 +477,7 @@
       "output": "devices/utilities/Equal Amplitude Utility — equalAmp.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> equalAmp.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -461,6 +492,7 @@
       "output": "devices/sequencing/Euclidean LFO Sequencer — euclid.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> euclid.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -475,6 +507,7 @@
       "output": "devices/audio_effects/Audio Feedback Generator — feedbacker.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> feedbacker.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -489,6 +522,7 @@
       "output": "devices/audio_effects/Fixed Filter Bank — fffb@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> fffb@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -503,6 +537,7 @@
       "output": "devices/samplers/Sample Looper — flop.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> flop.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -517,6 +552,7 @@
       "output": "devices/instruments/FM Synth & Ring Modulator — fmrm.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> fmrm.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -531,6 +567,7 @@
       "output": "devices/audio_effects/Spectral Filter - Vocoder — forbiddenP.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> forbiddenP.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -545,6 +582,7 @@
       "output": "devices/sequencing/Parameter Motion Recorder — frack.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> frack.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -559,6 +597,7 @@
       "output": "devices/audio_effects/Reverb (Freeverb) — freeverb@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> freeverb@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -573,6 +612,7 @@
       "output": "devices/instruments/Trautonium Synth — frequenzteiler.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> frequenzteiler.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -587,6 +627,7 @@
       "output": "devices/samplers/Granular Sample Player (gg) — gg.rainer.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> gg.rainer.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -601,6 +642,7 @@
       "output": "devices/audio_effects/Spectral Pitch Shifter — gizmo@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> gizmo@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -615,6 +657,7 @@
       "output": "devices/audio_effects/Reverb (GVerb) — gverb@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> gverb@.maxpat",
         "needs package(s): LowkeyNW",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -630,6 +673,7 @@
       "output": "devices/samplers/Hard Disk Player — hardplay.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> hardplay.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -644,6 +688,7 @@
       "output": "devices/visual_jitter/Video-to-Oscillator Bank — jit.2oscbank.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.2oscbank.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -658,6 +703,7 @@
       "output": "devices/visual_jitter/Image Analyzer — jit.3m@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.3m@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -672,6 +718,7 @@
       "output": "devices/visual_jitter/Blob Tracker — jit.blobs.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.blobs.maxpat",
         "needs package(s): cv.jit",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -687,6 +734,7 @@
       "output": "devices/visual_jitter/Video Brightness-Contrast-Saturation — jit.brcosa@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.brcosa@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -701,6 +749,7 @@
       "output": "devices/visual_jitter/Image Buffer - Texture Player — jit.buf.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.buf.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -715,6 +764,7 @@
       "output": "devices/visual_jitter/Image Buffer Recorder — jit.buffer@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.buffer@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -729,6 +779,7 @@
       "output": "devices/visual_jitter/Screen Grabber — jit.copyprot.act.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.copyprot.act.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -743,6 +794,7 @@
       "output": "devices/visual_jitter/Video Display - Recorder — jit.display@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.display@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -757,6 +809,7 @@
       "output": "devices/visual_jitter/Camera Input — jit.grab@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.grab@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -771,6 +824,7 @@
       "output": "devices/visual_jitter/Drawing Canvas — jit.lcd@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.lcd@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -785,6 +839,7 @@
       "output": "devices/visual_jitter/Image Operator — jit.op@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.op@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -799,6 +854,7 @@
       "output": "devices/visual_jitter/Movie Player — jit.player.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.player.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -813,6 +869,7 @@
       "output": "devices/visual_jitter/Texture Slide - Reposition — jit.slide@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.slide@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -827,6 +884,7 @@
       "output": "devices/visual_jitter/Video Mixer - Positioner — jit.videoplanes.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.videoplanes.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -841,6 +899,7 @@
       "output": "devices/visual_jitter/Video Mixer (List) — jit.videoplanesP.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.videoplanesP.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -855,6 +914,7 @@
       "output": "devices/visual_jitter/Texture World - Movie Recorder — jit.world@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> jit.world@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -869,6 +929,7 @@
       "output": "devices/modulation/Random Mouse-Click Generator — kaos@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> kaos@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -883,6 +944,7 @@
       "output": "devices/samplers/Varispeed Looper (Karma) — karma@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> karma@.maxpat",
         "needs package(s): karma",
         "live_type=iiii (Instrument)"
       ],
@@ -898,6 +960,7 @@
       "output": "devices/samplers/Granular Sample Player (kk) — kk.rainer.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> kk.rainer.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -912,6 +975,7 @@
       "output": "devices/audio_effects/Compressor — kompressor.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> kompressor.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -926,6 +990,7 @@
       "output": "devices/audio_effects/Peak Limiter — limi.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> limi.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -940,6 +1005,7 @@
       "output": "devices/utilities/Ableton Link Sync — link@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> link@.maxpat",
         "needs package(s): link",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -955,6 +1021,7 @@
       "output": "devices/routing_mixing/Audio Matrix (Matriarch) — matriarch@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> matriarch@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -969,6 +1036,7 @@
       "output": "devices/routing_mixing/Audio Matrix — matrix@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> matrix@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -983,6 +1051,7 @@
       "output": "devices/modulation/Random Generator (MC) — mc.random@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> mc.random@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -997,6 +1066,7 @@
       "output": "devices/audio_effects/Random MC Panner — mcpanner.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> mcpanner.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1011,6 +1081,7 @@
       "output": "devices/midi/MIDI Keyboard Parser — midikeys.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> midikeys.maxpat",
         "live_type=mmmm (MIDI Effect)"
       ],
       "paths_removed": [
@@ -1025,6 +1096,7 @@
       "output": "devices/routing_mixing/Audio Mixer — mixer@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> mixer@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1039,6 +1111,7 @@
       "output": "devices/modulation/Universal Modulator — modul.ator.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> modul.ator.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1053,6 +1126,7 @@
       "output": "devices/audio_effects/Audio Morpher (MC) — morph.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> morph.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1067,6 +1141,7 @@
       "output": "devices/samplers/Granular Player (MuBu) — mubugrain@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> mubugrain@.maxpat",
         "needs package(s): MuBu For Max",
         "live_type=iiii (Instrument)"
       ],
@@ -1082,6 +1157,7 @@
       "output": "devices/audio_effects/Multitap Delay — multitap.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> multitap.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1096,6 +1172,7 @@
       "output": "devices/audio_effects/Granulator (Munger) — munger@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> munger@.maxpat",
         "needs package(s): PeRColate",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1111,6 +1188,7 @@
       "output": "devices/instruments/Noise Generator — noize@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> noize@.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1125,6 +1203,7 @@
       "output": "devices/audio_effects/Peak Normalizer — normalize.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> normalize.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1139,6 +1218,7 @@
       "output": "devices/utilities/Notepad — notepad@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> notepad@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1153,6 +1233,7 @@
       "output": "devices/modulation/Signal - Number Operator — op@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> op@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1167,6 +1248,7 @@
       "output": "devices/instruments/Sine Oscillator Bank — oscbank@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> oscbank@.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1181,6 +1263,7 @@
       "output": "devices/audio_effects/Overdrive — overdrive@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> overdrive@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1195,6 +1278,7 @@
       "output": "devices/audio_effects/4-Band Harmonizer — pHARM4@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pHARM4@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1209,6 +1293,7 @@
       "output": "devices/instruments/PAF Formant Synth — paf@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> paf@.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1223,6 +1308,7 @@
       "output": "devices/audio_effects/Dynamic Gate — peakfinder.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> peakfinder.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1237,6 +1323,7 @@
       "output": "devices/analysis_metering/Envelope Follower — peakfollow@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> peakfollow@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1251,6 +1338,7 @@
       "output": "devices/sequencing/Signal Step Sequencer — period.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> period.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1265,6 +1353,7 @@
       "output": "devices/samplers/6-Voice Sample Player — pr.6groov.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pr.6groov.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1279,6 +1368,7 @@
       "output": "devices/audio_effects/Spectral Freeze — pr.spectfreeze.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pr.spectfreeze.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1293,6 +1383,7 @@
       "output": "devices/audio_effects/Spectral Player — pr.spectplay.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pr.spectplay.maxpat",
         "needs package(s): CNMAT Externals",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1308,6 +1399,7 @@
       "output": "devices/audio_effects/Delay with Feedback — prdelay@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> prdelay@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1322,6 +1414,7 @@
       "output": "devices/modulation/LFO Pulse Generator — pulse@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pulse@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1336,6 +1429,7 @@
       "output": "devices/modulation/Pulse Wave Generator — pulsegen.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> pulsegen.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1350,6 +1444,7 @@
       "output": "devices/modulation/Frequency - Rhythm Quantizer — quant.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> quant.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1364,6 +1459,7 @@
       "output": "devices/modulation/Random Bit Generator (0-1) — random0_1-.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> random0_1-.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1378,6 +1474,7 @@
       "output": "devices/modulation/Parameter Randomizer — random@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> random@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1392,6 +1489,7 @@
       "output": "devices/samplers/Hard Disk Recorder — rec@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> rec@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1406,6 +1504,7 @@
       "output": "devices/sequencing/Parameter Event Recorder — rec_events.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> rec_events.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1420,6 +1519,7 @@
       "output": "devices/instruments/Spectral Resonators — rez@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> rez@.maxpat",
         "needs package(s): CNMAT Externals",
         "live_type=iiii (Instrument)"
       ],
@@ -1435,6 +1535,7 @@
       "output": "devices/audio_effects/Ring Modulator — rm@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> rm@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1449,6 +1550,7 @@
       "output": "devices/analysis_metering/Oscilloscope — scope@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> scope@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1463,6 +1565,7 @@
       "output": "devices/routing_mixing/Signal-to-Control Converter — signaltocontrol.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> signaltocontrol.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1477,6 +1580,7 @@
       "output": "devices/samplers/4-Fold Sample Player — simproov.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> simproov.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1491,6 +1595,7 @@
       "output": "devices/instruments/Sine Bank with Envelopes — sinsE.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> sinsE.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1505,6 +1610,7 @@
       "output": "devices/instruments/Sine Tone Generator — sinus.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> sinus.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1519,6 +1625,7 @@
       "output": "devices/utilities/Preset Snapshot — snap@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> snap@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1533,6 +1640,7 @@
       "output": "devices/analysis_metering/Sonogram (Spectral View) — sonogram@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> sonogram@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1547,6 +1655,7 @@
       "output": "devices/spatialization/Ambisonics A-B Converter — spat.abba@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.abba@.maxpat",
         "likely needs: ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1562,6 +1671,7 @@
       "output": "devices/spatialization/Ambisonics Monitor Control — spat.ambicontrol@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambicontrol@.maxpat",
         "needs package(s): ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1577,6 +1687,7 @@
       "output": "devices/spatialization/Ambisonics B-Format Decoder — spat.ambidecode@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambidecode@.maxpat",
         "needs package(s): ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1592,6 +1703,7 @@
       "output": "devices/spatialization/Ambisonics B-Format Encoder — spat.ambiencode@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambiencode@.maxpat",
         "needs package(s): ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1607,6 +1719,7 @@
       "output": "devices/spatialization/Ambisonics Monitor — spat.ambimonitor@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambimonitor@.maxpat",
         "needs package(s): ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1622,6 +1735,7 @@
       "output": "devices/spatialization/Ambisonics Panner — spat.ambipanning@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambipanning@.maxpat",
         "needs package(s): ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1637,6 +1751,7 @@
       "output": "devices/spatialization/Ambisonics Soundfield Transform — spat.ambitransform@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.ambitransform@.maxpat",
         "likely needs: ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1652,6 +1767,7 @@
       "output": "devices/spatialization/Ambisonics UHJ-to-B Converter — spat.uhj2b@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spat.uhj2b@.maxpat",
         "likely needs: ICST Ambisonics",
         "live_type=aaaa (Audio Effect)"
       ],
@@ -1667,6 +1783,7 @@
       "output": "devices/instruments/Spectral Sine Resynthesis — spectral_sins.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> spectral_sins.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1681,6 +1798,7 @@
       "output": "devices/audio_effects/State-Variable Filter — svf2@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> svf2@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1695,6 +1813,7 @@
       "output": "devices/utilities/Act Layout Editor — tetris@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> tetris@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1709,6 +1828,7 @@
       "output": "devices/audio_effects/3-Band Compressor — threekomp.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> threekomp.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1723,6 +1843,7 @@
       "output": "devices/sequencing/Parameter Timeline Sequencer — timeline@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> timeline@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1737,6 +1858,7 @@
       "output": "devices/spatialization/VBAP Multi-Speaker Panner — vbap@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> vbap@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1751,6 +1873,7 @@
       "output": "devices/utilities/VST Plugin Host — vst@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> vst@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1765,6 +1888,7 @@
       "output": "devices/audio_effects/N-Band Filter - EQ — w_filter.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> w_filter.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1779,6 +1903,7 @@
       "output": "devices/modulation/Random Walk Modulator — walk.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> walk.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1793,6 +1918,7 @@
       "output": "devices/instruments/Wavelet Oscillator — wavelets.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> wavelets.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
@@ -1807,6 +1933,7 @@
       "output": "devices/audio_effects/Waveshaper — waveshapers@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> waveshapers@.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1821,6 +1948,7 @@
       "output": "devices/audio_effects/1-4 Band Stereo Filter — wrapfilter.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> wrapfilter.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1835,6 +1963,7 @@
       "output": "devices/audio_effects/Chebyshev-Butterworth Filter — x_filter.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> x_filter.maxpat",
         "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
@@ -1849,6 +1978,7 @@
       "output": "devices/samplers/Sample Player (XGroove) — xgroove@.amxd",
       "status": "OK",
       "notes": [
+        "act-creation fixed (1 ref): create-act-bpatcher -> xgroove@.maxpat",
         "live_type=iiii (Instrument)"
       ],
       "paths_removed": [
