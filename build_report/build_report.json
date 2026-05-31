@@ -1,0 +1,1860 @@
+{
+  "retag": false,
+  "total": 131,
+  "ok": 131,
+  "warn": 0,
+  "error": 0,
+  "devices": [
+    {
+      "act": "2Dsliders",
+      "clear_name": "XY Control Pad",
+      "category": "modulation",
+      "output": "devices/modulation/XY Control Pad — 2Dsliders.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "INmulti",
+      "clear_name": "Multi Audio Input",
+      "category": "routing_mixing",
+      "output": "devices/routing_mixing/Multi Audio Input — INmulti.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "LFFO",
+      "clear_name": "Dynamic Ring Modulator",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Dynamic Ring Modulator — LFFO.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "SDIFter",
+      "clear_name": "SDIF Soundfile Player",
+      "category": "samplers",
+      "output": "devices/samplers/SDIF Soundfile Player — SDIFter.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): CNMAT Externals",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "TFF",
+      "clear_name": "4-Band Resonant Filter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/4-Band Resonant Filter — TFF.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "TSSSF",
+      "clear_name": "Subtractive Synth",
+      "category": "instruments",
+      "output": "devices/instruments/Subtractive Synth — TSSSF.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "amxd@",
+      "clear_name": "Max for Live Device Host",
+      "category": "utilities",
+      "output": "devices/utilities/Max for Live Device Host — amxd@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "analyze@",
+      "clear_name": "Audio Analyzer (Loudness/Brightness)",
+      "category": "analysis_metering",
+      "output": "devices/analysis_metering/Audio Analyzer (Loudness-Brightness) — analyze@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "animator@",
+      "clear_name": "5-Band LFO",
+      "category": "modulation",
+      "output": "devices/modulation/5-Band LFO — animator@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "arpanner",
+      "clear_name": "Audio-Rate Auto-Panner",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Audio-Rate Auto-Panner — arpanner.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "autocount@",
+      "clear_name": "Number / Counter Generator",
+      "category": "modulation",
+      "output": "devices/modulation/Number - Counter Generator — autocount@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "bandfollower",
+      "clear_name": "Multiband Envelope Follower",
+      "category": "analysis_metering",
+      "output": "devices/analysis_metering/Multiband Envelope Follower — bandfollower.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "banger",
+      "clear_name": "Sync Bang Generator",
+      "category": "sequencing",
+      "output": "devices/sequencing/Sync Bang Generator — banger.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "beast",
+      "clear_name": "Buffer Machine",
+      "category": "samplers",
+      "output": "devices/samplers/Buffer Machine — beast.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "beauty",
+      "clear_name": "Delay-Feedback Machine",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Delay-Feedback Machine — beauty.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "bildsynthi",
+      "clear_name": "Video-Driven Bandpass Filter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Video-Driven Bandpass Filter — bildsynthi.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "brown",
+      "clear_name": "Brownian Noise Generator",
+      "category": "instruments",
+      "output": "devices/instruments/Brownian Noise Generator — brown.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "buffer_host",
+      "clear_name": "Shared Buffer Host",
+      "category": "utilities",
+      "output": "devices/utilities/Shared Buffer Host — buffer_host.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "buffub",
+      "clear_name": "Buffer Recorder",
+      "category": "samplers",
+      "output": "devices/samplers/Buffer Recorder — buffub.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "chaos",
+      "clear_name": "Lorenz/Roessler Chaos Generator",
+      "category": "modulation",
+      "output": "devices/modulation/Lorenz-Roessler Chaos Generator — chaos.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "chebyshev@",
+      "clear_name": "Chebyshev Distortion",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Chebyshev Distortion — chebyshev@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "cll_cltl@",
+      "clear_name": "Ondo Noise Synth",
+      "category": "instruments",
+      "output": "devices/instruments/Ondo Noise Synth — cll_cltl@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "clocker@",
+      "clear_name": "Event Sequencer",
+      "category": "sequencing",
+      "output": "devices/sequencing/Event Sequencer — clocker@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "cloud",
+      "clear_name": "Oscillator Bank (Pitch Cloud)",
+      "category": "instruments",
+      "output": "devices/instruments/Oscillator Bank (Pitch Cloud) — cloud.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "control@",
+      "clear_name": "External Control Input (MIDI/OSC)",
+      "category": "midi",
+      "output": "devices/midi/External Control Input (MIDI-OSC) — control@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "delayloops",
+      "clear_name": "3-Line Delay",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/3-Line Delay — delayloops.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "demosound@",
+      "clear_name": "Demo Sound Generator",
+      "category": "instruments",
+      "output": "devices/instruments/Demo Sound Generator — demosound@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "distort@",
+      "clear_name": "Bitcrusher / Sample-Rate Reducer",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Bitcrusher - Sample-Rate Reducer — distort@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "envM",
+      "clear_name": "Multi-Envelope (MC)",
+      "category": "modulation",
+      "output": "devices/modulation/Multi-Envelope (MC) — envM.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "envMM",
+      "clear_name": "Multi-Envelope Generator",
+      "category": "modulation",
+      "output": "devices/modulation/Multi-Envelope Generator — envMM.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "eq@",
+      "clear_name": "Graphic EQ (Crossover)",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Graphic EQ (Crossover) — eq@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "equalAmp",
+      "clear_name": "Equal Amplitude Utility",
+      "category": "utilities",
+      "output": "devices/utilities/Equal Amplitude Utility — equalAmp.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "euclid",
+      "clear_name": "Euclidean LFO Sequencer",
+      "category": "sequencing",
+      "output": "devices/sequencing/Euclidean LFO Sequencer — euclid.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "feedbacker",
+      "clear_name": "Audio Feedback Generator",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Audio Feedback Generator — feedbacker.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "fffb@",
+      "clear_name": "Fixed Filter Bank",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Fixed Filter Bank — fffb@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "flop",
+      "clear_name": "Sample Looper",
+      "category": "samplers",
+      "output": "devices/samplers/Sample Looper — flop.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "fmrm",
+      "clear_name": "FM Synth & Ring Modulator",
+      "category": "instruments",
+      "output": "devices/instruments/FM Synth & Ring Modulator — fmrm.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "forbiddenP",
+      "clear_name": "Spectral Filter / Vocoder",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Spectral Filter - Vocoder — forbiddenP.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "frack",
+      "clear_name": "Parameter Motion Recorder",
+      "category": "sequencing",
+      "output": "devices/sequencing/Parameter Motion Recorder — frack.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "freeverb@",
+      "clear_name": "Reverb (Freeverb)",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Reverb (Freeverb) — freeverb@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "frequenzteiler",
+      "clear_name": "Trautonium Synth",
+      "category": "instruments",
+      "output": "devices/instruments/Trautonium Synth — frequenzteiler.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "gg.rainer",
+      "clear_name": "Granular Sample Player (gg)",
+      "category": "samplers",
+      "output": "devices/samplers/Granular Sample Player (gg) — gg.rainer.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "gizmo@",
+      "clear_name": "Spectral Pitch Shifter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Spectral Pitch Shifter — gizmo@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "gverb@",
+      "clear_name": "Reverb (GVerb)",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Reverb (GVerb) — gverb@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): LowkeyNW",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "hardplay",
+      "clear_name": "Hard Disk Player",
+      "category": "samplers",
+      "output": "devices/samplers/Hard Disk Player — hardplay.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.2oscbank",
+      "clear_name": "Video-to-Oscillator Bank",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Video-to-Oscillator Bank — jit.2oscbank.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.3m@",
+      "clear_name": "Image Analyzer",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Image Analyzer — jit.3m@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.blobs",
+      "clear_name": "Blob Tracker",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Blob Tracker — jit.blobs.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): cv.jit",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.brcosa@",
+      "clear_name": "Video Brightness/Contrast/Saturation",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Video Brightness-Contrast-Saturation — jit.brcosa@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.buf",
+      "clear_name": "Image Buffer / Texture Player",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Image Buffer - Texture Player — jit.buf.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.buffer@",
+      "clear_name": "Image Buffer Recorder",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Image Buffer Recorder — jit.buffer@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.copyprot.act",
+      "clear_name": "Screen Grabber",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Screen Grabber — jit.copyprot.act.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.display@",
+      "clear_name": "Video Display / Recorder",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Video Display - Recorder — jit.display@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.grab@",
+      "clear_name": "Camera Input",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Camera Input — jit.grab@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.lcd@",
+      "clear_name": "Drawing Canvas",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Drawing Canvas — jit.lcd@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.op@",
+      "clear_name": "Image Operator",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Image Operator — jit.op@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.player",
+      "clear_name": "Movie Player",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Movie Player — jit.player.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.slide@",
+      "clear_name": "Texture Slide / Reposition",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Texture Slide - Reposition — jit.slide@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.videoplanes",
+      "clear_name": "Video Mixer / Positioner",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Video Mixer - Positioner — jit.videoplanes.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.videoplanesP",
+      "clear_name": "Video Mixer (List)",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Video Mixer (List) — jit.videoplanesP.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "jit.world@",
+      "clear_name": "Texture World / Movie Recorder",
+      "category": "visual_jitter",
+      "output": "devices/visual_jitter/Texture World - Movie Recorder — jit.world@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "kaos@",
+      "clear_name": "Random Mouse-Click Generator",
+      "category": "modulation",
+      "output": "devices/modulation/Random Mouse-Click Generator — kaos@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "karma@",
+      "clear_name": "Varispeed Looper (Karma)",
+      "category": "samplers",
+      "output": "devices/samplers/Varispeed Looper (Karma) — karma@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): karma",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "kk.rainer",
+      "clear_name": "Granular Sample Player (kk)",
+      "category": "samplers",
+      "output": "devices/samplers/Granular Sample Player (kk) — kk.rainer.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "kompressor",
+      "clear_name": "Compressor",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Compressor — kompressor.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "limi",
+      "clear_name": "Peak Limiter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Peak Limiter — limi.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "link@",
+      "clear_name": "Ableton Link Sync",
+      "category": "utilities",
+      "output": "devices/utilities/Ableton Link Sync — link@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): link",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "matriarch@",
+      "clear_name": "Audio Matrix (Matriarch)",
+      "category": "routing_mixing",
+      "output": "devices/routing_mixing/Audio Matrix (Matriarch) — matriarch@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "matrix@",
+      "clear_name": "Audio Matrix",
+      "category": "routing_mixing",
+      "output": "devices/routing_mixing/Audio Matrix — matrix@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "mc.random@",
+      "clear_name": "Random Generator (MC)",
+      "category": "modulation",
+      "output": "devices/modulation/Random Generator (MC) — mc.random@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "mcpanner",
+      "clear_name": "Random MC Panner",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Random MC Panner — mcpanner.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "midikeys",
+      "clear_name": "MIDI Keyboard Parser",
+      "category": "midi",
+      "output": "devices/midi/MIDI Keyboard Parser — midikeys.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "mixer@",
+      "clear_name": "Audio Mixer",
+      "category": "routing_mixing",
+      "output": "devices/routing_mixing/Audio Mixer — mixer@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "modul.ator",
+      "clear_name": "Universal Modulator",
+      "category": "modulation",
+      "output": "devices/modulation/Universal Modulator — modul.ator.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "morph",
+      "clear_name": "Audio Morpher (MC)",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Audio Morpher (MC) — morph.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "mubugrain@",
+      "clear_name": "Granular Player (MuBu)",
+      "category": "samplers",
+      "output": "devices/samplers/Granular Player (MuBu) — mubugrain@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): MuBu For Max",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "multitap",
+      "clear_name": "Multitap Delay",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Multitap Delay — multitap.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "munger@",
+      "clear_name": "Granulator (Munger)",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Granulator (Munger) — munger@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): PeRColate",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "noize@",
+      "clear_name": "Noise Generator",
+      "category": "instruments",
+      "output": "devices/instruments/Noise Generator — noize@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "normalize",
+      "clear_name": "Peak Normalizer",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Peak Normalizer — normalize.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "notepad@",
+      "clear_name": "Notepad",
+      "category": "utilities",
+      "output": "devices/utilities/Notepad — notepad@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "op@",
+      "clear_name": "Signal / Number Operator",
+      "category": "modulation",
+      "output": "devices/modulation/Signal - Number Operator — op@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "oscbank@",
+      "clear_name": "Sine Oscillator Bank",
+      "category": "instruments",
+      "output": "devices/instruments/Sine Oscillator Bank — oscbank@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "overdrive@",
+      "clear_name": "Overdrive",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Overdrive — overdrive@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pHARM4@",
+      "clear_name": "4-Band Harmonizer",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/4-Band Harmonizer — pHARM4@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "paf@",
+      "clear_name": "PAF Formant Synth",
+      "category": "instruments",
+      "output": "devices/instruments/PAF Formant Synth — paf@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "peakfinder",
+      "clear_name": "Dynamic Gate",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Dynamic Gate — peakfinder.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "peakfollow@",
+      "clear_name": "Envelope Follower",
+      "category": "analysis_metering",
+      "output": "devices/analysis_metering/Envelope Follower — peakfollow@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "period",
+      "clear_name": "Signal Step Sequencer",
+      "category": "sequencing",
+      "output": "devices/sequencing/Signal Step Sequencer — period.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pr.6groov",
+      "clear_name": "6-Voice Sample Player",
+      "category": "samplers",
+      "output": "devices/samplers/6-Voice Sample Player — pr.6groov.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pr.spectfreeze",
+      "clear_name": "Spectral Freeze",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Spectral Freeze — pr.spectfreeze.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pr.spectplay",
+      "clear_name": "Spectral Player",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Spectral Player — pr.spectplay.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): CNMAT Externals",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "prdelay@",
+      "clear_name": "Delay with Feedback",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Delay with Feedback — prdelay@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pulse@",
+      "clear_name": "LFO Pulse Generator",
+      "category": "modulation",
+      "output": "devices/modulation/LFO Pulse Generator — pulse@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "pulsegen",
+      "clear_name": "Pulse Wave Generator",
+      "category": "modulation",
+      "output": "devices/modulation/Pulse Wave Generator — pulsegen.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "quant",
+      "clear_name": "Frequency / Rhythm Quantizer",
+      "category": "modulation",
+      "output": "devices/modulation/Frequency - Rhythm Quantizer — quant.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "random0_1-",
+      "clear_name": "Random Bit Generator (0/1)",
+      "category": "modulation",
+      "output": "devices/modulation/Random Bit Generator (0-1) — random0_1-.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "random@",
+      "clear_name": "Parameter Randomizer",
+      "category": "modulation",
+      "output": "devices/modulation/Parameter Randomizer — random@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "rec@",
+      "clear_name": "Hard Disk Recorder",
+      "category": "samplers",
+      "output": "devices/samplers/Hard Disk Recorder — rec@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "rec_events",
+      "clear_name": "Parameter Event Recorder",
+      "category": "sequencing",
+      "output": "devices/sequencing/Parameter Event Recorder — rec_events.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "rez@",
+      "clear_name": "Spectral Resonators",
+      "category": "instruments",
+      "output": "devices/instruments/Spectral Resonators — rez@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): CNMAT Externals",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "rm@",
+      "clear_name": "Ring Modulator",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Ring Modulator — rm@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "scope@",
+      "clear_name": "Oscilloscope",
+      "category": "analysis_metering",
+      "output": "devices/analysis_metering/Oscilloscope — scope@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "signaltocontrol",
+      "clear_name": "Signal-to-Control Converter",
+      "category": "routing_mixing",
+      "output": "devices/routing_mixing/Signal-to-Control Converter — signaltocontrol.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "simproov",
+      "clear_name": "4-Fold Sample Player",
+      "category": "samplers",
+      "output": "devices/samplers/4-Fold Sample Player — simproov.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "sinsE",
+      "clear_name": "Sine Bank with Envelopes",
+      "category": "instruments",
+      "output": "devices/instruments/Sine Bank with Envelopes — sinsE.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "sinus",
+      "clear_name": "Sine Tone Generator",
+      "category": "instruments",
+      "output": "devices/instruments/Sine Tone Generator — sinus.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "snap@",
+      "clear_name": "Preset Snapshot",
+      "category": "utilities",
+      "output": "devices/utilities/Preset Snapshot — snap@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "sonogram@",
+      "clear_name": "Sonogram (Spectral View)",
+      "category": "analysis_metering",
+      "output": "devices/analysis_metering/Sonogram (Spectral View) — sonogram@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.abba@",
+      "clear_name": "Ambisonics A/B Converter",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics A-B Converter — spat.abba@.amxd",
+      "status": "OK",
+      "notes": [
+        "likely needs: ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambicontrol@",
+      "clear_name": "Ambisonics Monitor Control",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics Monitor Control — spat.ambicontrol@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambidecode@",
+      "clear_name": "Ambisonics B-Format Decoder",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics B-Format Decoder — spat.ambidecode@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambiencode@",
+      "clear_name": "Ambisonics B-Format Encoder",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics B-Format Encoder — spat.ambiencode@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambimonitor@",
+      "clear_name": "Ambisonics Monitor",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics Monitor — spat.ambimonitor@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambipanning@",
+      "clear_name": "Ambisonics Panner",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics Panner — spat.ambipanning@.amxd",
+      "status": "OK",
+      "notes": [
+        "needs package(s): ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.ambitransform@",
+      "clear_name": "Ambisonics Soundfield Transform",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics Soundfield Transform — spat.ambitransform@.amxd",
+      "status": "OK",
+      "notes": [
+        "likely needs: ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spat.uhj2b@",
+      "clear_name": "Ambisonics UHJ-to-B Converter",
+      "category": "spatialization",
+      "output": "devices/spatialization/Ambisonics UHJ-to-B Converter — spat.uhj2b@.amxd",
+      "status": "OK",
+      "notes": [
+        "likely needs: ICST Ambisonics",
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "spectral_sins",
+      "clear_name": "Spectral Sine Resynthesis",
+      "category": "instruments",
+      "output": "devices/instruments/Spectral Sine Resynthesis — spectral_sins.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "svf2@",
+      "clear_name": "State-Variable Filter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/State-Variable Filter — svf2@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "tetris@",
+      "clear_name": "Act Layout Editor",
+      "category": "utilities",
+      "output": "devices/utilities/Act Layout Editor — tetris@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "threekomp",
+      "clear_name": "3-Band Compressor",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/3-Band Compressor — threekomp.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "timeline@",
+      "clear_name": "Parameter Timeline Sequencer",
+      "category": "sequencing",
+      "output": "devices/sequencing/Parameter Timeline Sequencer — timeline@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "vbap@",
+      "clear_name": "VBAP Multi-Speaker Panner",
+      "category": "spatialization",
+      "output": "devices/spatialization/VBAP Multi-Speaker Panner — vbap@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "vst@",
+      "clear_name": "VST Plugin Host",
+      "category": "utilities",
+      "output": "devices/utilities/VST Plugin Host — vst@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "w_filter",
+      "clear_name": "N-Band Filter / EQ",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/N-Band Filter - EQ — w_filter.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "walk",
+      "clear_name": "Random Walk Modulator",
+      "category": "modulation",
+      "output": "devices/modulation/Random Walk Modulator — walk.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "wavelets",
+      "clear_name": "Wavelet Oscillator",
+      "category": "instruments",
+      "output": "devices/instruments/Wavelet Oscillator — wavelets.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "waveshapers@",
+      "clear_name": "Waveshaper",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Waveshaper — waveshapers@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "wrapfilter",
+      "clear_name": "1-4 Band Stereo Filter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/1-4 Band Stereo Filter — wrapfilter.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "x_filter",
+      "clear_name": "Chebyshev/Butterworth Filter",
+      "category": "audio_effects",
+      "output": "devices/audio_effects/Chebyshev-Butterworth Filter — x_filter.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    },
+    {
+      "act": "xgroove@",
+      "clear_name": "Sample Player (XGroove)",
+      "category": "samplers",
+      "output": "devices/samplers/Sample Player (XGroove) — xgroove@.amxd",
+      "status": "OK",
+      "notes": [
+        "live_type=iiii (Instrument)"
+      ],
+      "paths_removed": [
+        "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
+        "ll.getacts2.maxpat (implicit, bootpath ~/Desktop/ppooll/patchers/abstractions/filip)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2674 @@
+{
+  "version": "1.0",
+  "source": "ppooll 8.6.9",
+  "devices": [
+    {
+      "act": "2Dsliders",
+      "clear_name": "XY Control Pad",
+      "category": "modulation",
+      "description": "control parameters by dragging points",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "INmulti",
+      "clear_name": "Multi Audio Input",
+      "category": "routing_mixing",
+      "description": "(multiple) audio input",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio input",
+        "signal router",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "LFFO",
+      "clear_name": "Dynamic Ring Modulator",
+      "category": "audio_effects",
+      "description": "dynamic ring modulator",
+      "authors": [
+        "Antonio DellaMarina"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "SDIFter",
+      "clear_name": "SDIF Soundfile Player",
+      "category": "samplers",
+      "description": "SDIF soundfile player",
+      "authors": [
+        "filip",
+        "noid",
+        "bill d"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "CNMAT Externals"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "TFF",
+      "clear_name": "4-Band Resonant Filter",
+      "category": "audio_effects",
+      "description": "4 band resonant filter",
+      "authors": [
+        "Léo Dupleix"
+      ],
+      "tags": [
+        "controls parameters",
+        "plugin",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "TSSSF",
+      "clear_name": "Subtractive Synth",
+      "category": "instruments",
+      "description": "substractive synthesis",
+      "authors": [
+        "Léo Dupleix"
+      ],
+      "tags": [
+        "audio generator",
+        "midi",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "amxd@",
+      "clear_name": "Max for Live Device Host",
+      "category": "utilities",
+      "description": "host for max for live devices",
+      "authors": [
+        "filip",
+        "hausch",
+        "Joe Steccato"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "analyze@",
+      "clear_name": "Audio Analyzer (Loudness/Brightness)",
+      "category": "analysis_metering",
+      "description": "loudness, brightness of audio",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "audio converter"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "animator@",
+      "clear_name": "5-Band LFO",
+      "category": "modulation",
+      "description": "5 band lfo",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "arpanner",
+      "clear_name": "Audio-Rate Auto-Panner",
+      "category": "audio_effects",
+      "description": "audiorate panner",
+      "authors": [
+        "Antonio DellaMarina"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "autocount@",
+      "clear_name": "Number / Counter Generator",
+      "category": "modulation",
+      "description": "number generator",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "bandfollower",
+      "clear_name": "Multiband Envelope Follower",
+      "category": "analysis_metering",
+      "description": "generate loudness data from filters",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "audio converter"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "banger",
+      "clear_name": "Sync Bang Generator",
+      "category": "sequencing",
+      "description": "send synchronized bangs",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "audio converter"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "beast",
+      "clear_name": "Buffer Machine",
+      "category": "samplers",
+      "description": "non-trivial buffer machine",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "beauty",
+      "clear_name": "Delay-Feedback Machine",
+      "category": "audio_effects",
+      "description": "delay-feedback machine",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "plugin",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "bildsynthi",
+      "clear_name": "Video-Driven Bandpass Filter",
+      "category": "audio_effects",
+      "description": "video driven bandpass filter",
+      "authors": [
+        "filip",
+        "nicolaj kirisits"
+      ],
+      "tags": [
+        "jitter (images)",
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "brown",
+      "clear_name": "Brownian Noise Generator",
+      "category": "instruments",
+      "description": "brownian noise generator",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "buffer_host",
+      "clear_name": "Shared Buffer Host",
+      "category": "utilities",
+      "description": "(no upstream description)",
+      "authors": [
+        "unknown"
+      ],
+      "tags": [],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": false
+    },
+    {
+      "act": "buffub",
+      "clear_name": "Buffer Recorder",
+      "category": "samplers",
+      "description": "records into buffers",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "audio input",
+        "uses buffer_host",
+        "recording",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "chaos",
+      "clear_name": "Lorenz/Roessler Chaos Generator",
+      "category": "modulation",
+      "description": "lorenz-roessler generator",
+      "authors": [
+        "filip",
+        "noid"
+      ],
+      "tags": [
+        "controls parameters",
+        "controls signals"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "chebyshev@",
+      "clear_name": "Chebyshev Distortion",
+      "category": "audio_effects",
+      "description": "distortion unit",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "cll_cltl@",
+      "clear_name": "Ondo Noise Synth",
+      "category": "instruments",
+      "description": "ondomusic noise",
+      "authors": [
+        "filip",
+        "uhito kiyosue"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "clocker@",
+      "clear_name": "Event Sequencer",
+      "category": "sequencing",
+      "description": "event sequencer",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "cloud",
+      "clear_name": "Oscillator Bank (Pitch Cloud)",
+      "category": "instruments",
+      "description": "oscillator bank with pitch distribution system",
+      "authors": [
+        "Taku Unami"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "control@",
+      "clear_name": "External Control Input (MIDI/OSC)",
+      "category": "midi",
+      "description": "external device input (midi-osc-etc)",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "midi",
+        "network"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "mmmm",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "delayloops",
+      "clear_name": "3-Line Delay",
+      "category": "audio_effects",
+      "description": "3 delay lines",
+      "authors": [
+        "Antonio DellaMarina"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "demosound@",
+      "clear_name": "Demo Sound Generator",
+      "category": "instruments",
+      "description": "cycling's demosound to ppooll",
+      "authors": [
+        "cycling'74"
+      ],
+      "tags": [
+        "audio generator"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "distort@",
+      "clear_name": "Bitcrusher / Sample-Rate Reducer",
+      "category": "audio_effects",
+      "description": "degrade sample-rate & bit-resolution",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "envM",
+      "clear_name": "Multi-Envelope (MC)",
+      "category": "modulation",
+      "description": "mc version of multiple envelopes",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls signals",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "envMM",
+      "clear_name": "Multi-Envelope Generator",
+      "category": "modulation",
+      "description": "multiple envelopes",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "eq@",
+      "clear_name": "Graphic EQ (Crossover)",
+      "category": "audio_effects",
+      "description": "crossover-filter based graphic equalizer",
+      "authors": [
+        "hausch",
+        "cycling'74"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "equalAmp",
+      "clear_name": "Equal Amplitude Utility",
+      "category": "utilities",
+      "description": "????",
+      "authors": [
+        "Taku Unami"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "euclid",
+      "clear_name": "Euclidean LFO Sequencer",
+      "category": "sequencing",
+      "description": "LFO with Euclidean sequencer",
+      "authors": [
+        "Taku Unami"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "feedbacker",
+      "clear_name": "Audio Feedback Generator",
+      "category": "audio_effects",
+      "description": "feedback generator for audio-inputs",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "fffb@",
+      "clear_name": "Fixed Filter Bank",
+      "category": "audio_effects",
+      "description": "filter bank",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "flop",
+      "clear_name": "Sample Looper",
+      "category": "samplers",
+      "description": "sample looper",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "fmrm",
+      "clear_name": "FM Synth & Ring Modulator",
+      "category": "instruments",
+      "description": "fm synt & ring modulator",
+      "authors": [
+        "filip",
+        "hausch",
+        "cycling'74"
+      ],
+      "tags": [
+        "audio generator",
+        "plugin",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "forbiddenP",
+      "clear_name": "Spectral Filter / Vocoder",
+      "category": "audio_effects",
+      "description": "spectral filter or vocoder",
+      "authors": [
+        "filip",
+        "cycling'74"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "frack",
+      "clear_name": "Parameter Motion Recorder",
+      "category": "sequencing",
+      "description": "record parameter movements",
+      "authors": [
+        "boris hauf"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "freeverb@",
+      "clear_name": "Reverb (Freeverb)",
+      "category": "audio_effects",
+      "description": "reverb",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "frequenzteiler",
+      "clear_name": "Trautonium Synth",
+      "category": "instruments",
+      "description": "trautonium synthesizer",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "gg.rainer",
+      "clear_name": "Granular Sample Player (gg)",
+      "category": "samplers",
+      "description": "granular sample player",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "gizmo@",
+      "clear_name": "Spectral Pitch Shifter",
+      "category": "audio_effects",
+      "description": "pitch shifter",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "gverb@",
+      "clear_name": "Reverb (GVerb)",
+      "category": "audio_effects",
+      "description": "reverb plugin",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "LowkeyNW"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "hardplay",
+      "clear_name": "Hard Disk Player",
+      "category": "samplers",
+      "description": "plays soundfiles from hd or cd",
+      "authors": [
+        "filip",
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "deals with harddisc",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.2oscbank",
+      "clear_name": "Video-to-Oscillator Bank",
+      "category": "visual_jitter",
+      "description": "video to oscilator bank",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "jitter (images)",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.3m@",
+      "clear_name": "Image Analyzer",
+      "category": "visual_jitter",
+      "description": "cheap image analyser",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.blobs",
+      "clear_name": "Blob Tracker",
+      "category": "visual_jitter",
+      "description": "outputs a list with blobs tracked in an image",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "cv.jit"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.brcosa@",
+      "clear_name": "Video Brightness/Contrast/Saturation",
+      "category": "visual_jitter",
+      "description": "video brcosa settings",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.buf",
+      "clear_name": "Image Buffer / Texture Player",
+      "category": "visual_jitter",
+      "description": "store images and play (textures)",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.buffer@",
+      "clear_name": "Image Buffer Recorder",
+      "category": "visual_jitter",
+      "description": "store images and play later",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.copyprot.act",
+      "clear_name": "Screen Grabber",
+      "category": "visual_jitter",
+      "description": "grab video from screen",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.display@",
+      "clear_name": "Video Display / Recorder",
+      "category": "visual_jitter",
+      "description": "video screening and recording",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.grab@",
+      "clear_name": "Camera Input",
+      "category": "visual_jitter",
+      "description": "camera input",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.lcd@",
+      "clear_name": "Drawing Canvas",
+      "category": "visual_jitter",
+      "description": "draft drawing",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.op@",
+      "clear_name": "Image Operator",
+      "category": "visual_jitter",
+      "description": "image operater",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.player",
+      "clear_name": "Movie Player",
+      "category": "visual_jitter",
+      "description": "qt movie player",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.slide@",
+      "clear_name": "Texture Slide / Reposition",
+      "category": "visual_jitter",
+      "description": "slide and repositin incoming texture",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.videoplanes",
+      "clear_name": "Video Mixer / Positioner",
+      "category": "visual_jitter",
+      "description": "mix and position video",
+      "authors": [
+        "filip",
+        "noid"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.videoplanesP",
+      "clear_name": "Video Mixer (List)",
+      "category": "visual_jitter",
+      "description": "mix and position video (list-version)",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "jit.world@",
+      "clear_name": "Texture World / Movie Recorder",
+      "category": "visual_jitter",
+      "description": "texture host to movie rec",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "jitter (images)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "kaos@",
+      "clear_name": "Random Mouse-Click Generator",
+      "category": "modulation",
+      "description": "random mouse clicks",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "karma@",
+      "clear_name": "Varispeed Looper (Karma)",
+      "category": "samplers",
+      "description": "Varispeed audio looper",
+      "authors": [
+        "raja"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "karma"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "kk.rainer",
+      "clear_name": "Granular Sample Player (kk)",
+      "category": "samplers",
+      "description": "granular sample player",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "kompressor",
+      "clear_name": "Compressor",
+      "category": "audio_effects",
+      "description": "audio compressor",
+      "authors": [
+        "cycling'74"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "limi",
+      "clear_name": "Peak Limiter",
+      "category": "audio_effects",
+      "description": "peak limiter",
+      "authors": [
+        "hausch",
+        "cycling'74"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "link@",
+      "clear_name": "Ableton Link Sync",
+      "category": "utilities",
+      "description": "ableton link sync interface",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "audio generator"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "link"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "matriarch@",
+      "clear_name": "Audio Matrix (Matriarch)",
+      "category": "routing_mixing",
+      "description": "audio matrix on steroids",
+      "authors": [
+        "Joe Steccato"
+      ],
+      "tags": [
+        "controls signals",
+        "signal router"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "matrix@",
+      "clear_name": "Audio Matrix",
+      "category": "routing_mixing",
+      "description": "audio matrix",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls signals",
+        "signal router"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "mc.random@",
+      "clear_name": "Random Generator (MC)",
+      "category": "modulation",
+      "description": "(no upstream description)",
+      "authors": [
+        "unknown"
+      ],
+      "tags": [],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": false
+    },
+    {
+      "act": "mcpanner",
+      "clear_name": "Random MC Panner",
+      "category": "audio_effects",
+      "description": "simple random panner for mc signals",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "midikeys",
+      "clear_name": "MIDI Keyboard Parser",
+      "category": "midi",
+      "description": "midi keyboard parser",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters",
+        "midi"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "mmmm",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "mixer@",
+      "clear_name": "Audio Mixer",
+      "category": "routing_mixing",
+      "description": "audio mixer",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls signals",
+        "signal router"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "modul.ator",
+      "clear_name": "Universal Modulator",
+      "category": "modulation",
+      "description": "modulates anything",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host",
+        "controls parameters",
+        "controls signals",
+        "plugin",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "morph",
+      "clear_name": "Audio Morpher (MC)",
+      "category": "audio_effects",
+      "description": "morphing between two audio signals (mc)",
+      "authors": [
+        "Taku Unami"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "mubugrain@",
+      "clear_name": "Granular Player (MuBu)",
+      "category": "samplers",
+      "description": "granular player",
+      "authors": [
+        "Joe Steccato"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "MuBu For Max"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "multitap",
+      "clear_name": "Multitap Delay",
+      "category": "audio_effects",
+      "description": "delay bank",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "munger@",
+      "clear_name": "Granulator (Munger)",
+      "category": "audio_effects",
+      "description": "granulator plugin",
+      "authors": [
+        "noid",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "PeRColate"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "noize@",
+      "clear_name": "Noise Generator",
+      "category": "instruments",
+      "description": "noise-generator",
+      "authors": [
+        "filip",
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "normalize",
+      "clear_name": "Peak Normalizer",
+      "category": "audio_effects",
+      "description": "get maximum level of audio",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "notepad@",
+      "clear_name": "Notepad",
+      "category": "utilities",
+      "description": "write something to yourself",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "op@",
+      "clear_name": "Signal / Number Operator",
+      "category": "modulation",
+      "description": "signal/number operator",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "controls parameters",
+        "controls signals",
+        "plugin",
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "oscbank@",
+      "clear_name": "Sine Oscillator Bank",
+      "category": "instruments",
+      "description": "multiple sinus generator",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "overdrive@",
+      "clear_name": "Overdrive",
+      "category": "audio_effects",
+      "description": "audio overdrive",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pHARM4@",
+      "clear_name": "4-Band Harmonizer",
+      "category": "audio_effects",
+      "description": "4 band harmonizer",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "paf@",
+      "clear_name": "PAF Formant Synth",
+      "category": "instruments",
+      "description": "Phase Aligned Formant Synthesizer",
+      "authors": [
+        "filip",
+        "noid",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "peakfinder",
+      "clear_name": "Dynamic Gate",
+      "category": "audio_effects",
+      "description": "dynamic gate",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "peakfollow@",
+      "clear_name": "Envelope Follower",
+      "category": "analysis_metering",
+      "description": "envelope follower",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "controls parameters",
+        "controls signals",
+        "audio converter"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "period",
+      "clear_name": "Signal Step Sequencer",
+      "category": "sequencing",
+      "description": "signal-based step sequencer",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "audio generator",
+        "controls signals"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pr.6groov",
+      "clear_name": "6-Voice Sample Player",
+      "category": "samplers",
+      "description": "multiple sample player",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pr.spectfreeze",
+      "clear_name": "Spectral Freeze",
+      "category": "audio_effects",
+      "description": "spectrum freezer",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pr.spectplay",
+      "clear_name": "Spectral Player",
+      "category": "audio_effects",
+      "description": "spectrum player",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "CNMAT Externals"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "prdelay@",
+      "clear_name": "Delay with Feedback",
+      "category": "audio_effects",
+      "description": "simple delay with feedback",
+      "authors": [
+        "Paulo Raposo"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pulse@",
+      "clear_name": "LFO Pulse Generator",
+      "category": "modulation",
+      "description": "lfo pulse generator",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "audio generator",
+        "controls parameters",
+        "controls signals"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "pulsegen",
+      "clear_name": "Pulse Wave Generator",
+      "category": "modulation",
+      "description": "pulse wave generator",
+      "authors": [
+        "romain macagni"
+      ],
+      "tags": [
+        "audio generator",
+        "controls parameters",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "quant",
+      "clear_name": "Frequency / Rhythm Quantizer",
+      "category": "modulation",
+      "description": "signal based frequency/rhythm quantizer",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "controls signals"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "random0_1-",
+      "clear_name": "Random Bit Generator (0/1)",
+      "category": "modulation",
+      "description": "simple ranomizer spitting 0 and 1",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "random@",
+      "clear_name": "Parameter Randomizer",
+      "category": "modulation",
+      "description": "randomize parameters",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "rec@",
+      "clear_name": "Hard Disk Recorder",
+      "category": "samplers",
+      "description": "record to harddisc",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio input",
+        "deals with harddisc",
+        "recording",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "rec_events",
+      "clear_name": "Parameter Event Recorder",
+      "category": "sequencing",
+      "description": "records parameter events",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "rez@",
+      "clear_name": "Spectral Resonators",
+      "category": "instruments",
+      "description": "spectral rezonators",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "audio generator",
+        "plugin",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "CNMAT Externals"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "rm@",
+      "clear_name": "Ring Modulator",
+      "category": "audio_effects",
+      "description": "ring modulator",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "scope@",
+      "clear_name": "Oscilloscope",
+      "category": "analysis_metering",
+      "description": "view audio signal",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "signaltocontrol",
+      "clear_name": "Signal-to-Control Converter",
+      "category": "routing_mixing",
+      "description": "signals to control@",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "simproov",
+      "clear_name": "4-Fold Sample Player",
+      "category": "samplers",
+      "description": "simple 4 fold sample player",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "sinsE",
+      "clear_name": "Sine Bank with Envelopes",
+      "category": "instruments",
+      "description": "sinus bank with envelopes",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "sinus",
+      "clear_name": "Sine Tone Generator",
+      "category": "instruments",
+      "description": "sinus tone generator",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "snap@",
+      "clear_name": "Preset Snapshot",
+      "category": "utilities",
+      "description": "snapshot all parameters as preset",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "sonogram@",
+      "clear_name": "Sonogram (Spectral View)",
+      "category": "analysis_metering",
+      "description": "audio signal viewer",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio converter"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.abba@",
+      "clear_name": "Ambisonics A/B Converter",
+      "category": "spatialization",
+      "description": "ambisonics a-to-b/b-to-a format converter",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [
+        "ICST Ambisonics"
+      ],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambicontrol@",
+      "clear_name": "Ambisonics Monitor Control",
+      "category": "spatialization",
+      "description": "ambimonitor controller",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "controls parameters",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "ICST Ambisonics"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambidecode@",
+      "clear_name": "Ambisonics B-Format Decoder",
+      "category": "spatialization",
+      "description": "ambisonics b-format decoder",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "signal router",
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "ICST Ambisonics"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambiencode@",
+      "clear_name": "Ambisonics B-Format Encoder",
+      "category": "spatialization",
+      "description": "ambisonics b-format encoder",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "signal router",
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "ICST Ambisonics"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambimonitor@",
+      "clear_name": "Ambisonics Monitor",
+      "category": "spatialization",
+      "description": "monitor for ambisonics encoder",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "ICST Ambisonics"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambipanning@",
+      "clear_name": "Ambisonics Panner",
+      "category": "spatialization",
+      "description": "ambisonics panner",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "signal router",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [
+        "ICST Ambisonics"
+      ],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.ambitransform@",
+      "clear_name": "Ambisonics Soundfield Transform",
+      "category": "spatialization",
+      "description": "ambisonics soundfield transform",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "audio converter",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [
+        "ICST Ambisonics"
+      ],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spat.uhj2b@",
+      "clear_name": "Ambisonics UHJ-to-B Converter",
+      "category": "spatialization",
+      "description": "ambisonics uhj-to-b format converter",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [
+        "ICST Ambisonics"
+      ],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "spectral_sins",
+      "clear_name": "Spectral Sine Resynthesis",
+      "category": "instruments",
+      "description": "sinwaves following incoming audio",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "svf2@",
+      "clear_name": "State-Variable Filter",
+      "category": "audio_effects",
+      "description": "cutoff filter",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "tetris@",
+      "clear_name": "Act Layout Editor",
+      "category": "utilities",
+      "description": "customize your act layout (and act-building)",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "?"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "threekomp",
+      "clear_name": "3-Band Compressor",
+      "category": "audio_effects",
+      "description": "ppooll port of 3komp from the max demo patches",
+      "authors": [
+        "hausch",
+        "cycling'74"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "timeline@",
+      "clear_name": "Parameter Timeline Sequencer",
+      "category": "sequencing",
+      "description": "graphical timeline sequencer for parameters",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "vbap@",
+      "clear_name": "VBAP Multi-Speaker Panner",
+      "category": "spatialization",
+      "description": "multi-speaker-spat or plugin-router",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin",
+        "signal router",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "vst@",
+      "clear_name": "VST Plugin Host",
+      "category": "utilities",
+      "description": "host for vst plugins",
+      "authors": [
+        "filip",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "w_filter",
+      "clear_name": "N-Band Filter / EQ",
+      "category": "audio_effects",
+      "description": "n-band filter/eq",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "walk",
+      "clear_name": "Random Walk Modulator",
+      "category": "modulation",
+      "description": "random walk a parameter",
+      "authors": [
+        "filip"
+      ],
+      "tags": [
+        "controls parameters"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "wavelets",
+      "clear_name": "Wavelet Oscillator",
+      "category": "instruments",
+      "description": "time based oscilator",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "audio generator",
+        "synth"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "waveshapers@",
+      "clear_name": "Waveshaper",
+      "category": "audio_effects",
+      "description": "waveshaping functions and demos",
+      "authors": [
+        "hausch"
+      ],
+      "tags": [
+        "audio generator",
+        "plugin",
+        "synth",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "wrapfilter",
+      "clear_name": "1-4 Band Stereo Filter",
+      "category": "audio_effects",
+      "description": "1 - 4 band stereo filter/eq",
+      "authors": [
+        "noid"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "x_filter",
+      "clear_name": "Chebyshev/Butterworth Filter",
+      "category": "audio_effects",
+      "description": "cheyshev & butterworth filter",
+      "authors": [
+        "noid",
+        "hausch"
+      ],
+      "tags": [
+        "plugin",
+        "multichannel (mc)"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "aaaa",
+      "has_upstream_metadata": true
+    },
+    {
+      "act": "xgroove@",
+      "clear_name": "Sample Player (XGroove)",
+      "category": "samplers",
+      "description": "sample player",
+      "authors": [
+        "filip",
+        "Joe Steccato"
+      ],
+      "tags": [
+        "audio generator",
+        "uses buffer_host"
+      ],
+      "requires_all": [
+        "jasch objects"
+      ],
+      "extra_packages": [],
+      "extra_packages_inferred": [],
+      "live_type": "iiii",
+      "has_upstream_metadata": true
+    }
+  ]
+}

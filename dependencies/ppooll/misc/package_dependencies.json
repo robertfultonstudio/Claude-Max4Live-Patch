@@ -1,0 +1,15 @@
+{
+	"comments" : 	{
+		"package (keys) " : "act[s] that need this package"
+	}
+	,
+	"jasch objects" : "all",
+	"cv.jit" : "jit.blobs",
+	"karma" : "karma@",
+	"link" : "link@",
+	"LowkeyNW" : "gverb@",
+	"PeRColate" : "munger@",
+	"CNMAT Externals" : [ "PEQ@", "pr.spectplay", "rez@", "SDIFter" ],
+	"ICST Ambisonics" : [ "spat.ambicontrol@", "spat.ambidecode@", "spat.ambiencode@", "spat.ambimonitor@", "spat.ambipanning@" ],
+	"MuBu For Max" : "mubugrain@"
+}

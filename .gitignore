@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Max autosave / temp
+*.maxhelp.tmp
+autosave/
