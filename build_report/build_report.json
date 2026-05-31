@@ -1,5 +1,5 @@
 {
-  "retag": false,
+  "retag": true,
   "total": 131,
   "ok": 131,
   "warn": 0,
@@ -12,7 +12,7 @@
       "output": "devices/modulation/XY Control Pad — 2Dsliders.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -26,7 +26,7 @@
       "output": "devices/routing_mixing/Multi Audio Input — INmulti.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -40,7 +40,7 @@
       "output": "devices/audio_effects/Dynamic Ring Modulator — LFFO.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -69,7 +69,7 @@
       "output": "devices/audio_effects/4-Band Resonant Filter — TFF.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -97,7 +97,7 @@
       "output": "devices/utilities/Max for Live Device Host — amxd@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -111,7 +111,7 @@
       "output": "devices/analysis_metering/Audio Analyzer (Loudness-Brightness) — analyze@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -125,7 +125,7 @@
       "output": "devices/modulation/5-Band LFO — animator@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -139,7 +139,7 @@
       "output": "devices/audio_effects/Audio-Rate Auto-Panner — arpanner.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -153,7 +153,7 @@
       "output": "devices/modulation/Number - Counter Generator — autocount@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -167,7 +167,7 @@
       "output": "devices/analysis_metering/Multiband Envelope Follower — bandfollower.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -181,7 +181,7 @@
       "output": "devices/sequencing/Sync Bang Generator — banger.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -209,7 +209,7 @@
       "output": "devices/audio_effects/Delay-Feedback Machine — beauty.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -223,7 +223,7 @@
       "output": "devices/audio_effects/Video-Driven Bandpass Filter — bildsynthi.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -251,7 +251,7 @@
       "output": "devices/utilities/Shared Buffer Host — buffer_host.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -265,7 +265,7 @@
       "output": "devices/samplers/Buffer Recorder — buffub.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -279,7 +279,7 @@
       "output": "devices/modulation/Lorenz-Roessler Chaos Generator — chaos.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -293,7 +293,7 @@
       "output": "devices/audio_effects/Chebyshev Distortion — chebyshev@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -321,7 +321,7 @@
       "output": "devices/sequencing/Event Sequencer — clocker@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -349,7 +349,7 @@
       "output": "devices/midi/External Control Input (MIDI-OSC) — control@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=mmmm (MIDI Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -363,7 +363,7 @@
       "output": "devices/audio_effects/3-Line Delay — delayloops.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -391,7 +391,7 @@
       "output": "devices/audio_effects/Bitcrusher - Sample-Rate Reducer — distort@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -405,7 +405,7 @@
       "output": "devices/modulation/Multi-Envelope (MC) — envM.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -419,7 +419,7 @@
       "output": "devices/modulation/Multi-Envelope Generator — envMM.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -433,7 +433,7 @@
       "output": "devices/audio_effects/Graphic EQ (Crossover) — eq@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -447,7 +447,7 @@
       "output": "devices/utilities/Equal Amplitude Utility — equalAmp.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -461,7 +461,7 @@
       "output": "devices/sequencing/Euclidean LFO Sequencer — euclid.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -475,7 +475,7 @@
       "output": "devices/audio_effects/Audio Feedback Generator — feedbacker.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -489,7 +489,7 @@
       "output": "devices/audio_effects/Fixed Filter Bank — fffb@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -531,7 +531,7 @@
       "output": "devices/audio_effects/Spectral Filter - Vocoder — forbiddenP.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -545,7 +545,7 @@
       "output": "devices/sequencing/Parameter Motion Recorder — frack.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -559,7 +559,7 @@
       "output": "devices/audio_effects/Reverb (Freeverb) — freeverb@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -601,7 +601,7 @@
       "output": "devices/audio_effects/Spectral Pitch Shifter — gizmo@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -616,7 +616,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): LowkeyNW",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -644,7 +644,7 @@
       "output": "devices/visual_jitter/Video-to-Oscillator Bank — jit.2oscbank.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -658,7 +658,7 @@
       "output": "devices/visual_jitter/Image Analyzer — jit.3m@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -673,7 +673,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): cv.jit",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -687,7 +687,7 @@
       "output": "devices/visual_jitter/Video Brightness-Contrast-Saturation — jit.brcosa@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -701,7 +701,7 @@
       "output": "devices/visual_jitter/Image Buffer - Texture Player — jit.buf.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -715,7 +715,7 @@
       "output": "devices/visual_jitter/Image Buffer Recorder — jit.buffer@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -729,7 +729,7 @@
       "output": "devices/visual_jitter/Screen Grabber — jit.copyprot.act.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -743,7 +743,7 @@
       "output": "devices/visual_jitter/Video Display - Recorder — jit.display@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -757,7 +757,7 @@
       "output": "devices/visual_jitter/Camera Input — jit.grab@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -771,7 +771,7 @@
       "output": "devices/visual_jitter/Drawing Canvas — jit.lcd@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -785,7 +785,7 @@
       "output": "devices/visual_jitter/Image Operator — jit.op@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -799,7 +799,7 @@
       "output": "devices/visual_jitter/Movie Player — jit.player.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -813,7 +813,7 @@
       "output": "devices/visual_jitter/Texture Slide - Reposition — jit.slide@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -827,7 +827,7 @@
       "output": "devices/visual_jitter/Video Mixer - Positioner — jit.videoplanes.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -841,7 +841,7 @@
       "output": "devices/visual_jitter/Video Mixer (List) — jit.videoplanesP.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -855,7 +855,7 @@
       "output": "devices/visual_jitter/Texture World - Movie Recorder — jit.world@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -869,7 +869,7 @@
       "output": "devices/modulation/Random Mouse-Click Generator — kaos@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -912,7 +912,7 @@
       "output": "devices/audio_effects/Compressor — kompressor.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -926,7 +926,7 @@
       "output": "devices/audio_effects/Peak Limiter — limi.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -941,7 +941,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): link",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -955,7 +955,7 @@
       "output": "devices/routing_mixing/Audio Matrix (Matriarch) — matriarch@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -969,7 +969,7 @@
       "output": "devices/routing_mixing/Audio Matrix — matrix@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -983,7 +983,7 @@
       "output": "devices/modulation/Random Generator (MC) — mc.random@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -997,7 +997,7 @@
       "output": "devices/audio_effects/Random MC Panner — mcpanner.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1011,7 +1011,7 @@
       "output": "devices/midi/MIDI Keyboard Parser — midikeys.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=mmmm (MIDI Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1025,7 +1025,7 @@
       "output": "devices/routing_mixing/Audio Mixer — mixer@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1039,7 +1039,7 @@
       "output": "devices/modulation/Universal Modulator — modul.ator.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1053,7 +1053,7 @@
       "output": "devices/audio_effects/Audio Morpher (MC) — morph.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1082,7 +1082,7 @@
       "output": "devices/audio_effects/Multitap Delay — multitap.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1097,7 +1097,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): PeRColate",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1125,7 +1125,7 @@
       "output": "devices/audio_effects/Peak Normalizer — normalize.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1139,7 +1139,7 @@
       "output": "devices/utilities/Notepad — notepad@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1153,7 +1153,7 @@
       "output": "devices/modulation/Signal - Number Operator — op@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1181,7 +1181,7 @@
       "output": "devices/audio_effects/Overdrive — overdrive@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1195,7 +1195,7 @@
       "output": "devices/audio_effects/4-Band Harmonizer — pHARM4@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1223,7 +1223,7 @@
       "output": "devices/audio_effects/Dynamic Gate — peakfinder.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1237,7 +1237,7 @@
       "output": "devices/analysis_metering/Envelope Follower — peakfollow@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1251,7 +1251,7 @@
       "output": "devices/sequencing/Signal Step Sequencer — period.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1279,7 +1279,7 @@
       "output": "devices/audio_effects/Spectral Freeze — pr.spectfreeze.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1294,7 +1294,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): CNMAT Externals",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1308,7 +1308,7 @@
       "output": "devices/audio_effects/Delay with Feedback — prdelay@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1322,7 +1322,7 @@
       "output": "devices/modulation/LFO Pulse Generator — pulse@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1336,7 +1336,7 @@
       "output": "devices/modulation/Pulse Wave Generator — pulsegen.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1350,7 +1350,7 @@
       "output": "devices/modulation/Frequency - Rhythm Quantizer — quant.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1364,7 +1364,7 @@
       "output": "devices/modulation/Random Bit Generator (0-1) — random0_1-.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1378,7 +1378,7 @@
       "output": "devices/modulation/Parameter Randomizer — random@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1392,7 +1392,7 @@
       "output": "devices/samplers/Hard Disk Recorder — rec@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1406,7 +1406,7 @@
       "output": "devices/sequencing/Parameter Event Recorder — rec_events.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1435,7 +1435,7 @@
       "output": "devices/audio_effects/Ring Modulator — rm@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1449,7 +1449,7 @@
       "output": "devices/analysis_metering/Oscilloscope — scope@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1463,7 +1463,7 @@
       "output": "devices/routing_mixing/Signal-to-Control Converter — signaltocontrol.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1519,7 +1519,7 @@
       "output": "devices/utilities/Preset Snapshot — snap@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1533,7 +1533,7 @@
       "output": "devices/analysis_metering/Sonogram (Spectral View) — sonogram@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1548,7 +1548,7 @@
       "status": "OK",
       "notes": [
         "likely needs: ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1563,7 +1563,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1578,7 +1578,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1593,7 +1593,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1608,7 +1608,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1623,7 +1623,7 @@
       "status": "OK",
       "notes": [
         "needs package(s): ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1638,7 +1638,7 @@
       "status": "OK",
       "notes": [
         "likely needs: ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1653,7 +1653,7 @@
       "status": "OK",
       "notes": [
         "likely needs: ICST Ambisonics",
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1681,7 +1681,7 @@
       "output": "devices/audio_effects/State-Variable Filter — svf2@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1695,7 +1695,7 @@
       "output": "devices/utilities/Act Layout Editor — tetris@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1709,7 +1709,7 @@
       "output": "devices/audio_effects/3-Band Compressor — threekomp.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1723,7 +1723,7 @@
       "output": "devices/sequencing/Parameter Timeline Sequencer — timeline@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1737,7 +1737,7 @@
       "output": "devices/spatialization/VBAP Multi-Speaker Panner — vbap@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1751,7 +1751,7 @@
       "output": "devices/utilities/VST Plugin Host — vst@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1765,7 +1765,7 @@
       "output": "devices/audio_effects/N-Band Filter - EQ — w_filter.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1779,7 +1779,7 @@
       "output": "devices/modulation/Random Walk Modulator — walk.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1807,7 +1807,7 @@
       "output": "devices/audio_effects/Waveshaper — waveshapers@.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1821,7 +1821,7 @@
       "output": "devices/audio_effects/1-4 Band Stereo Filter — wrapfilter.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
@@ -1835,7 +1835,7 @@
       "output": "devices/audio_effects/Chebyshev-Butterworth Filter — x_filter.amxd",
       "status": "OK",
       "notes": [
-        "live_type=iiii (Instrument)"
+        "live_type=aaaa (Audio Effect)"
       ],
       "paths_removed": [
         "live.ppooll-audio-routing-example.png (implicit, bootpath ~/Desktop/ppooll/media/pics/live.ppooll)",
