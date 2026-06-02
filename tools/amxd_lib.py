@@ -106,6 +106,25 @@ def repack_file(src_path: str, dst_path: str, mutate=None, new_type: bytes = Non
     return obj
 
 
+def build_amxd(obj, dst_path: str, type_bytes: bytes = TYPE_AUDIO_EFFECT):
+    """Build a brand-new .amxd from a patcher dict (not derived from an existing device)."""
+    import struct as _struct
+    payload = serialize_payload(obj)
+    header = (
+        MAGIC
+        + _struct.pack("<I", 4)
+        + type_bytes
+        + b"meta" + _struct.pack("<I", 4) + _struct.pack("<I", 1)
+        + b"ptch" + _struct.pack("<I", len(payload))
+    )
+    with open(dst_path, "wb") as f:
+        f.write(header + payload)
+    _, _, check = read(dst_path)  # round-trip validation
+    if json.dumps(check, sort_keys=True) != json.dumps(obj, sort_keys=True):
+        raise AmxdError(f"{dst_path}: round-trip mismatch after build")
+    return dst_path
+
+
 if __name__ == "__main__":
     import sys
 
