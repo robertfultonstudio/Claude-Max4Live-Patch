@@ -23,23 +23,24 @@ APPVERSION = {"major": 9, "minor": 0, "revision": 8, "architecture": "x64", "mod
 
 # ---------------- gen~ DSP ----------------
 GEN_CODE = r"""// Granular Delay — self-contained gen~ (no buffer~, no externals)
-Param mix(35., min=0., max=100.);
-Param delay(300., min=1., max=2000.);
-Param grain(120., min=20., max=500.);
-Param pitch(0., min=-24., max=24.);
-Param feedback(30., min=0., max=95.);
-Param spray(0., min=0., max=100.);
+// NB: param names are prefixed p_ because 'mix' and 'delay' are reserved gen~ operators.
+Param p_mix(35., min=0., max=100.);
+Param p_delay(300., min=1., max=2000.);
+Param p_grain(120., min=20., max=500.);
+Param p_pitch(0., min=-24., max=24.);
+Param p_fb(30., min=0., max=95.);
+Param p_spray(0., min=0., max=100.);
 
 Data buf(960000);
 n = dim(buf);
 srms = samplerate / 1000.;
 
-mixw  = slide(mix * 0.01, 1000, 1000);
-dly   = slide(delay, 2000, 2000) * srms;
-grs   = max(128., slide(grain, 2000, 2000) * srms);
-fb    = min(0.95, slide(feedback * 0.01, 1000, 1000));
-ratio = pow(2., slide(pitch, 500, 500) / 12.);
-spr   = slide(spray * 0.01, 1000, 1000) * dly;
+mixw  = slide(p_mix * 0.01, 1000, 1000);
+dly   = slide(p_delay, 2000, 2000) * srms;
+grs   = max(128., slide(p_grain, 2000, 2000) * srms);
+fb    = min(0.95, slide(p_fb * 0.01, 1000, 1000));
+ratio = pow(2., slide(p_pitch, 500, 500) / 12.);
+spr   = slide(p_spray * 0.01, 1000, 1000) * dly;
 
 x = (in1 + in2) * 0.5;
 
@@ -92,12 +93,12 @@ out2 = out1;
 
 # control: (gen param name, label, min, max, default, unit)
 CONTROLS = [
-    ("mix", "Mix", 0., 100., 35., "%"),
-    ("delay", "Delay", 1., 2000., 300., "ms"),
-    ("grain", "Grain Size", 20., 500., 120., "ms"),
-    ("pitch", "Pitch", -24., 24., 0., "st"),
-    ("feedback", "Feedback", 0., 95., 30., "%"),
-    ("spray", "Spray", 0., 100., 0., "%"),
+    ("p_mix", "Mix", 0., 100., 35., "%"),
+    ("p_delay", "Delay", 1., 2000., 300., "ms"),
+    ("p_grain", "Grain Size", 20., 500., 120., "ms"),
+    ("p_pitch", "Pitch", -24., 24., 0., "st"),
+    ("p_fb", "Feedback", 0., 95., 30., "%"),
+    ("p_spray", "Spray", 0., 100., 0., "%"),
 ]
 
 _id = [0]
@@ -137,8 +138,8 @@ def live_dial(param, label, lo, hi, default, unit, prect):
         "maxclass": "live.dial",
         "id": bid,
         "numinlets": 1,
-        "numoutlets": 2,
-        "outlettype": ["", "float"],
+        "numoutlets": 1,
+        "outlettype": [""],
         "parameter_enable": 1,
         "patching_rect": [20 + 60 * _id[0], 60, 44, 48],
         "presentation": 1,
