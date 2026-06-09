@@ -1,0 +1,24 @@
+# detune_map_C1_32p703Hz.txt  —  EXACT just-intonation cent offsets (auto-generated)
+# f0 = 32.703 Hz   partials 1..16  (selection: all)
+#
+# The Live clip plays the 'nearMIDI' column (12-TET). To hear TRUE JI, apply the
+# 'cents' offset to each note in an MPE synth / Live 12 Tuning System / Sub 37 / SC,
+# or just run the companion spectrum_C1_32p703Hz.scd.
+#
+# n   freqHz       nearMIDI  note   cents     velocity
+1   32.7030      24        C1     -0.01     100
+2   65.4060      36        C2     -0.01     50
+3   98.1090      43        G2     +1.94     33
+4   130.8120     48        C3     -0.01     25
+5   163.5150     52        E3     -13.70    20
+6   196.2180     55        G3     +1.94     17
+7   228.9210     58        A#3    -31.18    14
+8   261.6240     60        C4     -0.01     12
+9   294.3270     62        D4     +3.90     11
+10  327.0300     64        E4     -13.70    10
+11  359.7330     66        F#4    -48.69    10
+12  392.4360     67        G4     +1.94     10
+13  425.1390     68        G#4    +40.52    10
+14  457.8420     70        A#4    -31.18    10
+15  490.5450     71        B4     -11.74    10
+16  523.2480     72        C5     -0.01     10
